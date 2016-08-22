@@ -1,18 +1,26 @@
 
 void setup()
 {
-  size(400,400);
+	background(255,255,255);
+  size(500,500);
 }
 void draw(){
 	strokeWeight(2.5);
 //eye outline
-ellipse(114,89,60,60);
-ellipse(172,91,65,65);
+fill(255,255,255);
+ellipse(264,119,60,60);
+ellipse(322,121,65,65);
 //second circle of eye
+fill(84,192,222);
 strokeWeight(1);
-ellipse(121,91,22,22);
-ellipse(159,92,22,22);
+ellipse(271,121,22,22);
+ellipse(309,120,22,22);
 //pupil
+fill(0);
+ellipse(271, 121, 10,10);
+ellipse(309, 120, 10,10);
+//eyebrows
+//right side
 }
 
 
