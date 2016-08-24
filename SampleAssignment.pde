@@ -5,7 +5,7 @@ void setup()
   size(500,500);
 }
 void draw(){
-	strokeWeight(2.5);
+	strokeWeight(2);
 //eye outline
 fill(255,255,255);
 ellipse(264,119,60,60);
@@ -40,9 +40,23 @@ rotate(0.122173);
 rotate(0.296706);
 rect(345,-22,4,10);
 rotate(0.296706);
+//nose
+noFill();
+strokeWeight(2);
+rotate(0.296706);
+arc(297,0.5,60,11,50,109);
+rotate(-0.296706);
+rotate(0.349066);
+fill(0);
+arc(287,0,38,19,136,273);
+rotate(-0.349066);
+rotate(0.349066);
+arc(291,2,42,15,50,163);
+rotate(-0.349066);
+rotate(-0.10472);
+arc(278,129,67,22,52,110);
+rotate(0.10472);
 
 }
-
-
 
 
